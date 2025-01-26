@@ -1,17 +1,27 @@
-# Python digital clock
+# Python yuri clock
 
-This is a simple clock created using python3 and tkinter.
+Display your system clock on the desktop using tkinter GUIs.
 
-## Author name
-[ignatius mukami](https://github.com/monty-xtius/Show-time-python.git)
+## Setup
 
-## python version
-3.10.4
+This script utilizes the pyglet module to load custom font files into tkinter. If you are running on a linux system and tkinter is not yet installed, you need to install it first. For arch based systems, run
 
-This script requires no additional 3rd party libraries.
--TO run app via windows command prompt or powershell:
-`$ python3 show_time.py`
+```bash
+sudo pacman -S tk
+```
 
-## Live link
-## Contact information
-Email-(monmihalo2324@gmail.com)
+Install project dependencies in requirements.txt file
+```bash
+pip3 install -r requirements.txt
+```
+
+To run the main python file on windows cmd/terminal:
+```bash
+python3 show_time.py
+```
+
+## Contact
+Reach out to me for collaborations: monmihalo2324@gmail.com
+
+## Issues
+In case of any issues or suggestions for improvements on this project, don't hesitate to [create an issue](https://github.com/monty-iggy-xtius/Show-time-python/issues)
